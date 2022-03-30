@@ -1,1 +1,77 @@
+#root{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.yellow{
+    height: 35%;
+    width: 98vw;
+    display: flex;
+}
+ .col{
+    width: 50vw;
+    height: 33vh;
+    margin: 10px;
+    background-color:yellow;  
+    
+}
+.red{ 
+    width: 98vw;
+    height: 33%; 
+}
+.col1{
+    width: 96.5vw;
+    height: 33vh;
+    margin: 10px;
+    background-color: red;
+} 
+.blue{
+    width: 97.8vw;
+    height: 33%;
+    display: flex;
+}
+.col2{
+    margin: 10px;
+    height: 33vh;
+    width: 32.8vw;
+    background-color: blue;
+}
+@media only screen and (max-width:320px) {
+    .blue{
+        display:flex;
+        flex-direction: column;
+    }
+    .col2{
+        width: 100vw;
+        height: 12vh;
+        margin: 10px;
+        flex-direction:column;
+        background-color: blue; 
+
+    }
+    .yellow{
+        display: flex;
+        flex-direction: column;
+    }
+    .col{
+        width: 100vw;
+        height: 13vh;
+    } 
+}
+@media screen and (max-width:768px) and (min-width:320px){
+    .blue{
+        display:flex;       
+        flex-direction:column;
+    }
+    .col2{
+        width: 100vw;
+        height: 13vh;
+        margin: 10px; 
+        background-color:blue;
+    }
+    #pavan{
+        display: none;
+    }
+}
 
