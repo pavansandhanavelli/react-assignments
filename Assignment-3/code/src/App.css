@@ -1,0 +1,113 @@
+#root{
+    width: 100%;
+    height: 100vh;
+
+}
+.site-container{
+    width: 100%;
+    height: 100%;
+
+}
+.main_container{
+    width: 98%;
+    height: 12%;
+    border: 2px solid black;
+    display: flex;
+    margin-left: 10px;
+    background-color: #fffdfa;
+    padding-bottom: 12px;
+}
+.btn{
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    height: 30%;
+    margin-top: 25px;
+    padding: 5px 5px 5px 5px ;
+    width: 5%;
+    margin-right: 15px;
+}
+#main_arrow{
+    width: 50%;
+    margin-left: 1%;
+    /* margin-top: 30px; */
+    font-size: 25px;
+    
+}
+.employee_name{
+    width:45%;
+}
+.span1{
+    font-weight: bolder;
+    margin-top: 20px;
+    width: 20%;
+}
+.details{
+    border: 2px solid black;
+    width: 98%;
+    margin-left: 11.4px;
+    margin-top: 25px;
+    height: 17%;
+}
+.employee_details_bott{
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+.bold,.bold1 {
+    font-weight: bolder;
+}
+li{
+    padding-bottom: 10px;
+}
+.order{
+    display: inline-block;
+    border: 2px solid black;
+    background-color: lightgrey;
+    width: 98%;
+    margin-left: 11.4px;
+    margin-top: 25px;
+    height: 12%;
+    padding-bottom: 12px;
+
+}
+.employee_details_bott2{
+    width: 29%;
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 20px;
+
+
+}
+.list{
+    border: 2px solid black;
+    width: 98%;
+    margin-left: 11.4px;
+    margin-top: 25px;
+    display: flex;
+    height: 19%;
+}
+img{
+    margin-left: 19px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.side_text{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.employee_role{
+    font-weight: bolder;
+}
+.check_box{
+    height: 18px;
+    width: 18px;
+    border: 2px solid yellow;
+    margin-top: 4%;
+    margin-left: 10px;
+}
+#arrow1{
+    margin-left: 250%;
+    font-size: 25px;
+}
