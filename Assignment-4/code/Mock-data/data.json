@@ -1,0 +1,26 @@
+{
+    "user":
+                [
+            {"name":"Siva",
+            "location":"Bengaluru",
+            "likes":64,
+            "description": "Kick start your career",
+            "PostImage": "10xlogo.jpeg",
+            "date": 1648488334979
+            },
+            {"name":"Neeraj",
+            "location":"Pune",
+            "likes":30,
+            "description": "Sometimes you have to go up really high to understand how small you are.",
+            "PostImage": "aeroplane.jpg",
+            "date": 1648488334979
+            },
+            {"name":"Rahul",
+            "location":"Hyderabad",
+            "likes":30,
+            "description": "I think Nature's imagination is so much greater than man's, she's never gonna let us relax!",
+            "PostImage": "nature.jpg",
+            "date": 1648488334979
+            }
+            ]
+}
