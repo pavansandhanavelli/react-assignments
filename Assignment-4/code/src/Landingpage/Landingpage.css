@@ -1,0 +1,21 @@
+.Landingpage{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.sub-conatiner{
+    margin-top: 180px;
+    margin-left: 100px;
+}
+#button{
+    border-radius: 2px;
+    margin-left: 30%;
+    position: relative;
+    padding-left: 5px;
+    border: 1px solid black;
+}
+.img1{
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
