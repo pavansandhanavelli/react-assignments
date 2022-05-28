@@ -1,0 +1,19 @@
+.form-wrapper{
+    border: 2px solid black;
+    margin-left: 20%;
+    width: 250px;
+    height: 300px;
+}
+.description{
+    padding-top: 8px;
+}
+.posted{
+    padding-top: 8px;
+}
+.author{
+    padding-top: 8px;
+}
+
+
+
+

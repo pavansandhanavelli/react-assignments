@@ -1,7 +1,9 @@
 import React from "react";
-import Landingpage from "./Landingpage/Landingpage";
+import Landingpage from "./Landingpage";
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import Postview from "./Postview"
+import Postview from "../Postview";
+import Formpage from "./Formpage";
+
 function App() {
     return (
 
@@ -10,6 +12,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Landingpage/>} />
                     <Route path="/Postview" element={<Postview/>} />
+                    <Route path="/Formpage" element={<Formpage/>} />
                 </Routes>
             </Router>
         </div>

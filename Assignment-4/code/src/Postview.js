@@ -3,13 +3,14 @@ import { useState ,useEffect} from 'react';
 import Post from './Post/Post';
 import PhotoCameraIcon from '@mui/icons-material/PhotoCamera';
 import RadarIcon from '@mui/icons-material/Radar';
+import {Link} from 'react-router-dom';
 
 
-const Postview=()=> {
+ const Postview=()=> {
 
 const [posts,setPosts]=useState([]);
 const setPostsAsync=async()=> {
-  const response=await fetch("http://localhost:3004/user"),
+  const response=await fetch("https://instaclonepavanb.herokuapp.com/api/v1/posts"),
 
   data=await response.json();
   setPosts(data);
@@ -23,7 +24,9 @@ useEffect(()=>{
 
     <div className='header-Container'>
         <div className='lefthandside' ><span><RadarIcon/></span>Instaclone</div>
+        <Link to ="/Formpage">
         <div className='righthandside'><PhotoCameraIcon/></div>
+        </Link>
       </div>
     <div className="Postview">    
     {posts.map((post,index)=>(
@@ -32,6 +35,6 @@ useEffect(()=>{
     </div>
     </div>
   );
-};
-
+}; 
+ 
 export default Postview;

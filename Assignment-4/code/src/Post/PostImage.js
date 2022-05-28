@@ -1,7 +1,8 @@
 const PostImage = ({ config }) => {
-    const ImageURL=`../assests/${config.PostImage}`;
+    const relativeImageURL = `https://instaclonepavanb.herokuapp.com/${config.image}`;
     return <div className="PostImageWrapper">
-    <img src={ImageURL} alt={config.description}/>
-    </div>;
+ <img src={relativeImageURL} />
+ 
+ </div>
 };
 export default PostImage;
